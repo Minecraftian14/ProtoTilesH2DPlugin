@@ -1,0 +1,4 @@
+com/mcxiv/plugin/Sometest.java
+ com.mcxiv.plugin.Sometest
+com/mcxiv/plugin/TileComposerViewTest.java
+ com.mcxiv.plugin.TileComposerViewTest

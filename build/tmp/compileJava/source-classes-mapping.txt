@@ -1,0 +1,4 @@
+com/mcxiv/plugin/ThePlugin.java
+ com.mcxiv.plugin.ThePlugin
+com/mcxiv/plugin/TileComposerView.java
+ com.mcxiv.plugin.TileComposerView

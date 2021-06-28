@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+}
+
+ext {
+    pack = ['/assets']
+}
+
+group 'com.mcxiv.plugin'
+version '0.1'
+
+repositories {
+    mavenCentral()
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
+    implementation "com.badlogicgames.ashley:ashley:$ashleyVersion"
+    implementation "com.kotcrab.vis:vis-ui:$visuiVersion"
+
+    implementation "com.esotericsoftware.spine:spine-libgdx:$spineVersion"
+
+    implementation 'net.mountainblade:modular:1.0'
+
+    implementation 'games.rednblack.hyperlap2d:common-api:0.0.6'
+    implementation 'games.rednblack.hyperlap2d:runtime-libgdx:0.0.6'
+
+    implementation project(':ProtoTilesPen')
+
+    testImplementation 'com.github.Minecraftian14:Hyperlap2DPluginTester:v0.2.2'
+    testImplementation "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
+    testImplementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+//    testImplementation "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
+//    testImplementation "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
