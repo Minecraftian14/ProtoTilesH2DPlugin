@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Name egMyLOGGER
+Implementation-Version: Version egV1
+Main-Class: com.mcxiv.app.MainClassNameHere
+
