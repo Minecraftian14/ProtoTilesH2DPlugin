@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="ProtoTilesH2DPlugin.ProtoTilesPen.StraightLines" target="14" />
+      <module name="ProtoTilesH2DPlugin.ProtoTilesPen.StraightLines.main" target="14" />
+      <module name="ProtoTilesH2DPlugin.ProtoTilesPen.StraightLines.test" target="14" />
+    </bytecodeTargetLevel>
   </component>
 </project>

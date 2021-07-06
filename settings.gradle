@@ -1,3 +1,5 @@
 rootProject.name = 'ProtoTilesH2DPlugin'
+include 'ProcessingCards'
+include 'StraightLines'
 include 'ProtoTilesPen'
 

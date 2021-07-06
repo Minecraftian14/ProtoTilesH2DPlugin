@@ -12,7 +12,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ProcessingCards" />
             <option value="$PROJECT_DIR$/ProtoTilesPen" />
+            <option value="$PROJECT_DIR$/StraightLines" />
           </set>
         </option>
       </GradleProjectSettings>

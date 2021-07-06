@@ -17,8 +17,8 @@ repositories {
 
 dependencies {
     implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
-    implementation "com.badlogicgames.ashley:ashley:$ashleyVersion"
     implementation "com.kotcrab.vis:vis-ui:$visuiVersion"
+    implementation "com.badlogicgames.ashley:ashley:$ashleyVersion"
 
     implementation "com.esotericsoftware.spine:spine-libgdx:$spineVersion"
 
@@ -27,7 +27,8 @@ dependencies {
     implementation "games.rednblack.hyperlap2d:common-api:$h2dVersion"
     implementation "games.rednblack.hyperlap2d:runtime-libgdx:$h2dVersion"
 
-    implementation project(':ProtoTilesPen')
+//    implementation project(':ProtoTilesPen')
+    implementation project(':ProcessingCards')
 
     testImplementation 'com.github.Minecraftian14:Hyperlap2DPluginTester:v0.2.2'
     testImplementation "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"

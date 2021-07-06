@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../ProtoTilesPen/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../ProtoTilesPen/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../ProtoTilesPen/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../ProtoTilesPen/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.mcxiv.util:StraightLines:1.0-SNAPSHOT" level="project" />
+  </component>
+</module>

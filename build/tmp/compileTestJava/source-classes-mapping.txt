@@ -3,11 +3,9 @@ com/mcxiv/plugin/DragAndDropTest.java
  com.mcxiv.plugin.DragAndDropTest$1
  com.mcxiv.plugin.DragAndDropTest$2
  com.mcxiv.plugin.DragAndDropTest$3
+com/mcxiv/plugin/GdxTest.java
+ com.mcxiv.plugin.GdxTest
 com/mcxiv/plugin/TileComposerViewTest.java
  com.mcxiv.plugin.TileComposerViewTest
 com/mcxiv/plugin/view/ProtoTilesViewTest.java
  com.mcxiv.plugin.view.ProtoTilesViewTest
-com/mcxiv/plugin/GdxTest.java
- com.mcxiv.plugin.GdxTest
-com/mcxiv/plugin/Sometest.java
- com.mcxiv.plugin.Sometest

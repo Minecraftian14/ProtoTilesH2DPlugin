@@ -1,13 +1,16 @@
 com/mcxiv/plugin/view/subView/MainTileView.java
  com.mcxiv.plugin.view.subView.MainTileView
+com/mcxiv/plugin/util/GdxUtil.java
+ com.mcxiv.plugin.util.GdxUtil
+com/mcxiv/plugin/ThePlugin.java
+ com.mcxiv.plugin.ThePlugin
+com/mcxiv/plugin/view/subView/TileSetView.java
+ com.mcxiv.plugin.view.subView.TileSetView
+com/mcxiv/plugin/TileComposerView.java
+ com.mcxiv.plugin.TileComposerView
 com/mcxiv/plugin/view/ProtoTilesView.java
  com.mcxiv.plugin.view.ProtoTilesView
+ com.mcxiv.plugin.view.ProtoTilesView$1
 com/mcxiv/plugin/view/TheMediator.java
  com.mcxiv.plugin.view.TheMediator
  com.mcxiv.plugin.view.TheMediator$1
-com/mcxiv/plugin/TileComposerView.java
- com.mcxiv.plugin.TileComposerView
-com/mcxiv/plugin/view/subView/TileSetView.java
- com.mcxiv.plugin.view.subView.TileSetView
-com/mcxiv/plugin/ThePlugin.java
- com.mcxiv.plugin.ThePlugin

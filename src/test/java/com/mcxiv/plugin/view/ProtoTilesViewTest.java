@@ -1,31 +1,35 @@
 package com.mcxiv.plugin.view;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.PixmapIO;
+import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.mcxiv.app.PluginTester;
-import com.mcxiv.app.util.GdxUtil;
 
 class ProtoTilesViewTest {
 
     public static void main(String[] args) throws InterruptedException {
 
-        PluginTester.launchTest(null, ProtoTilesViewTest::run);
+        LwjglApplicationConfiguration configuration = new LwjglApplicationConfiguration();
+        configuration.title=ProtoTilesView.class.getSimpleName();
+        configuration.width=1200;
+        configuration.height=600;
+
+        PluginTester.launchTest(configuration, ProtoTilesViewTest::run);
 
     }
 
     private static void run() {
         Gdx.app.postRunnable(() -> {
-            Texture texture = new Texture(Gdx.files.internal("assets/image.png"));
+            Texture texture = new Texture(Gdx.files.internal("assets/grass.png"));
             TextureRegion region = new TextureRegion(texture);
 //            region = null;
-            PixmapIO.writePNG(Gdx.files.absolute("D:/image.png"), GdxUtil.getPixmap(region));
+//            PixmapIO.writePNG(Gdx.files.absolute("D:/image.png"), GdxUtil.getPixmap(region));
 
-            ProtoTilesView protoTilesView = new ProtoTilesView(null, null);
+            ProtoTilesView protoTilesView = new ProtoTilesView(null, region, "null");
             PluginTester.setTable(protoTilesView);
 
-            protoTilesView.setViewFor(region);
+//            protoTilesView.setViewFor(region, "null");
 
 //            texture = new Texture(Gdx.files.internal("assets/grass.png"));
 //            region = new TextureRegion(texture);
