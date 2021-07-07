@@ -5,48 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c185ad-ca13-4ce9-879b-c60d77f31e5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/ProtoTilesPen/StraightLines/ProtoTilesH2DPlugin.ProtoTilesPen.StraightLines.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/ProtoTilesPen/StraightLines/ProtoTilesH2DPlugin.ProtoTilesPen.StraightLines.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/ProtoTilesPen/StraightLines/ProtoTilesH2DPlugin.ProtoTilesPen.StraightLines.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraightLines" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProtoTilesPen" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTilesPen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProtoTilesPen/StraightLines" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProtoTilesPen/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTilesPen/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProtoTilesPen/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/ThePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/ProtoTilesPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/TileComposerView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/ProtoTilesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/ProtoTilesView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/TheMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/MainViewMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/MainTileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/MainTileView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/TileSetView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/TileSetView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/GdxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/GdxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/Sometest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/TileComposerViewTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/view/ProtoTilesViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/view/ProtoTilesViewTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
