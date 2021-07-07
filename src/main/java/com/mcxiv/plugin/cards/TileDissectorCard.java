@@ -11,7 +11,9 @@ import com.mcxiv.app.util.AppUtil;
 import com.mcxiv.app.util.Color;
 import com.mcxiv.app.util.functions.FloatFunction;
 import com.mcxiv.plugin.util.InterpolationSelectBox;
+import com.mcxiv.util.Line;
 import com.mcxiv.util.ProcessingCard;
+import com.mcxiv.util.SlopeConstantLine;
 
 import java.util.function.IntSupplier;
 
@@ -133,7 +135,7 @@ public class TileDissectorCard extends ProcessingCard<Color[][]> {
 
     @Override
     public ProcessingCard<Color[][]> clone() {
-        TileDissectorCard card = new TileDissectorCard(width,getParentCard());
+        TileDissectorCard card = new TileDissectorCard(width, getParentCard());
         card.fie_categoryBox.setSelected(fie_categoryBox.getSelected());
         card.fie_portionsBox.setSelected(fie_portionsBox.getSelected());
         card.fie_fade.setChecked(fie_fade.isChecked());
@@ -141,6 +143,7 @@ public class TileDissectorCard extends ProcessingCard<Color[][]> {
         card.fie_interpolator.setSelected(fie_categoryBox.getSelected());
         Array<ProcessingCard<Color[][]>> children = getCards();
         for (int i = 0; i < children.size; i++) card.addCard(children.get(i).clone());
+
         return card;
     }
 

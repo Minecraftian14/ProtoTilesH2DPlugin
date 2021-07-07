@@ -8,7 +8,8 @@ import com.mcxiv.app.PluginTester;
 
 class ProtoTilesViewTest {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void
+    main(String[] args) throws InterruptedException {
 
         LwjglApplicationConfiguration configuration = new LwjglApplicationConfiguration();
         configuration.title=ProtoTilesView.class.getSimpleName();

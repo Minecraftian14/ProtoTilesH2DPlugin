@@ -5,6 +5,8 @@
       <module name="ProtoTilesH2DPlugin.ProtoTilesPen.StraightLines" target="14" />
       <module name="ProtoTilesH2DPlugin.ProtoTilesPen.StraightLines.main" target="14" />
       <module name="ProtoTilesH2DPlugin.ProtoTilesPen.StraightLines.test" target="14" />
+      <module name="ProtoTilesH2DPlugin.StraightLines.main" target="14" />
+      <module name="ProtoTilesH2DPlugin.StraightLines.test" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>

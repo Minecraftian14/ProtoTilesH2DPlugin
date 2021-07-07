@@ -1,16 +1,31 @@
-com/mcxiv/plugin/view/subView/MainTileView.java
- com.mcxiv.plugin.view.subView.MainTileView
+com/mcxiv/plugin/cards/FinalActionCard.java
+ com.mcxiv.plugin.cards.FinalActionCard
+com/mcxiv/plugin/util/InterpolationSelectBox.java
+ com.mcxiv.plugin.util.InterpolationSelectBox
+com/mcxiv/plugin/ProtoTilesPlugin.java
+ com.mcxiv.plugin.ProtoTilesPlugin
+com/mcxiv/plugin/cards/MixActionCard.java
+ com.mcxiv.plugin.cards.MixActionCard
+com/mcxiv/plugin/view/subView/SettingsPaneView.java
+ com.mcxiv.plugin.view.subView.SettingsPaneView
 com/mcxiv/plugin/util/GdxUtil.java
  com.mcxiv.plugin.util.GdxUtil
-com/mcxiv/plugin/ThePlugin.java
- com.mcxiv.plugin.ThePlugin
-com/mcxiv/plugin/view/subView/TileSetView.java
- com.mcxiv.plugin.view.subView.TileSetView
-com/mcxiv/plugin/TileComposerView.java
- com.mcxiv.plugin.TileComposerView
+ com.mcxiv.plugin.util.GdxUtil$1
 com/mcxiv/plugin/view/ProtoTilesView.java
  com.mcxiv.plugin.view.ProtoTilesView
  com.mcxiv.plugin.view.ProtoTilesView$1
-com/mcxiv/plugin/view/TheMediator.java
- com.mcxiv.plugin.view.TheMediator
- com.mcxiv.plugin.view.TheMediator$1
+com/mcxiv/plugin/view/subView/MainTileView.java
+ com.mcxiv.plugin.view.subView.MainTileView
+com/mcxiv/plugin/cards/TileDissectorCard.java
+ com.mcxiv.plugin.cards.TileDissectorCard
+ com.mcxiv.plugin.cards.TileDissectorCard$1
+ com.mcxiv.plugin.cards.TileDissectorCard$2
+ com.mcxiv.plugin.cards.TileDissectorCard$TileDissectorAction
+ com.mcxiv.plugin.cards.TileDissectorCard$something
+com/mcxiv/plugin/view/MainViewMediator.java
+ com.mcxiv.plugin.view.MainViewMediator
+ com.mcxiv.plugin.view.MainViewMediator$1
+com/mcxiv/plugin/view/subView/TileSetView.java
+ com.mcxiv.plugin.view.subView.TileSetView
+com/mcxiv/plugin/view/subView/DissectorView.java
+ com.mcxiv.plugin.view.subView.DissectorView
