@@ -1,14 +1,16 @@
-com/mcxiv/plugin/DragAndDropTest.java
- com.mcxiv.plugin.DragAndDropTest
- com.mcxiv.plugin.DragAndDropTest$1
- com.mcxiv.plugin.DragAndDropTest$2
- com.mcxiv.plugin.DragAndDropTest$3
-com/mcxiv/plugin/ProcessingCardTest.java
- com.mcxiv.plugin.ProcessingCardTest
-com/mcxiv/plugin/cards/FinalActionCardTest.java
- com.mcxiv.plugin.cards.FinalActionCardTest
- com.mcxiv.plugin.cards.FinalActionCardTest$1
-com/mcxiv/plugin/view/ProtoTilesViewTest.java
- com.mcxiv.plugin.view.ProtoTilesViewTest
-com/mcxiv/plugin/GdxTest.java
- com.mcxiv.plugin.GdxTest
+com/mcxiv/app/GdxTest.java
+ com.mcxiv.app.GdxTest
+com/mcxiv/app/cards/FinalActionCardTest.java
+ com.mcxiv.app.cards.FinalActionCardTest
+ com.mcxiv.app.cards.FinalActionCardTest$1
+com/mcxiv/app/ProcessingCardTest.java
+ com.mcxiv.app.ProcessingCardTest
+com/mcxiv/app/view/ProtoTilesViewTest.java
+ com.mcxiv.app.view.ProtoTilesViewTest
+com/mcxiv/app/DragAndDropTest.java
+ com.mcxiv.app.DragAndDropTest
+ com.mcxiv.app.DragAndDropTest$1
+ com.mcxiv.app.DragAndDropTest$2
+ com.mcxiv.app.DragAndDropTest$3
+com/mcxiv/app/view/TilesetEditorTest.java
+ com.mcxiv.app.view.TilesetEditorTest

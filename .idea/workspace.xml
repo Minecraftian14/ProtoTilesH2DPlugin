@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c185ad-ca13-4ce9-879b-c60d77f31e5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
@@ -18,20 +17,37 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/ProtoTilesPen/ProtoTilesH2DPlugin.ProtoTilesPen.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ProtoTilesPen/ProtoTilesH2DPlugin.ProtoTilesPen.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProcessingCards/src/main/java/com/mcxiv/util/ProcessingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProcessingCards/src/main/java/com/mcxiv/util/ProcessingCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProcessingCards/src/test/java/com/mcxiv/util/ProcessingCardTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProtoTilesPen" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTilesPen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProtoTilesPen/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTilesPen/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProtoTilesPen/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTilesPen/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraightLines" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProtoTilesPen/temp/TileDissectorMethod_jstmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTilesPen/temp/TileDissectorMethod_jstmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/UI.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/UI.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/grasstile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/cards/TileDissectorCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/cards/TileDissectorCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/view/ProtoTilesViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/view/ProtoTilesViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/ProtoTilesPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/cards/FinalActionCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/cards/FinalActionCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/cards/MixActionCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/cards/MixActionCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/cards/TileDissectorCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/cards/TileDissectorCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/util/GdxUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/util/GdxUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/util/InterpolationSelectBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/ui/InterpolationSelectBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/MainViewMediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/ProtoTilesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/view/ProtoTilesView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/DissectorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/view/subView/DissectorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/MainTileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/view/subView/MainTileView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/SettingsPaneView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/view/subView/SettingsPaneView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/TileSetView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/view/subView/TileSetView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/DragAndDropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/app/DragAndDropTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/GdxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/app/GdxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/ProcessingCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/app/ProcessingCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/cards/FinalActionCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/app/cards/FinalActionCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/view/ProtoTilesViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/app/view/ProtoTilesViewTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +94,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="3c28e282-8f39-41f4-bcd6-12ef42469be9" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -98,27 +117,31 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last.edited.regexp" value="Sam.ple Text" />
+    <property name="last.edited.regexp" value="    overloadDissectorMethod(&quot;getHorRect&quot;)&#10;                        .parameter(&quot;height&quot;, &quot;&quot;&quot;The total height of the rectangle to be cropped.&quot;&quot;&quot;)&#10;                        .description(&quot;&quot;&quot;&#10;                            Returns the middle part of original pixels cropped like a rectangle with full width.&#10;                            The dimensions remain the same, ie, the remaining pixels are Null or Transparent.&#10;                        &quot;&quot;&quot;) {&#10;        return getHorRect(height / 2, height / 2, fade, fadeLength, raw, interpolator, clone, deNull);&#10;    }" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ProtoTilesPen/src/test/java/com/mcxiv/app/util" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProtoTilesPen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ProtoTilesPen" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.291954" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mcxiv.app.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\JAVA\ProtoTilesH2DPlugin\assets" />
       <recent name="D:\Projects\JAVA\ProtoTilesH2DPlugin\ProtoTilesPen" />
+      <recent name="D:\Projects\JAVA\ProtoTilesH2DPlugin" />
+      <recent name="D:\Projects\JAVA\ProtoTilesH2DPlugin\assets" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\JAVA\ProtoTilesH2DPlugin\assets" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.mcxiv.plugin.cards" />
@@ -128,6 +151,8 @@
       <recent name="com.mcxiv.plugin.view" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mcxiv.app.view" />
+      <recent name="" />
       <recent name="com.mcxiv.app" />
       <recent name="com.mcxiv.plugin" />
       <recent name="com.mcxiv.plugin.util" />
@@ -138,15 +163,17 @@
       <command value="gradle ProtoTilesPen:build build dist" />
       <command value="git submodule update --remote --merge " />
       <command value="git submodule update --init --recursive " />
+      <command value="gradle build" />
+      <command value="gradle ProtoTilesPen:compileJShorty" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProtoTilesViewTest">
+  <component name="RunManager" selected="Application.TilesetEditorTest">
     <configuration name="FinalActionCardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mcxiv.plugin.cards.FinalActionCardTest" />
+      <option name="MAIN_CLASS_NAME" value="com.mcxiv.app.cards.FinalActionCardTest" />
       <module name="ProtoTilesH2DPlugin.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mcxiv.plugin.cards.*" />
+          <option name="PATTERN" value="com.mcxiv.app.cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtoTilesViewTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mcxiv.plugin.view.ProtoTilesViewTest" />
-      <module name="ProtoTilesH2DPlugin.test" />
+    <configuration name="TileDissectorCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mcxiv.app.cards.TileDissectorCard" />
+      <module name="ProtoTilesH2DPlugin.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mcxiv.plugin.util.*" />
+          <option name="PATTERN" value="com.mcxiv.app.cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,63 +194,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtoTilesH2DPlugin [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TilesetEditorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mcxiv.app.view.TilesetEditorTest" />
+      <module name="ProtoTilesH2DPlugin.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mcxiv.app.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtoTilesH2DPlugin [ProtoTilesPen:compileJShorty]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value="ProtoTilesPen:compileJShorty" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ProtoTilesH2DPlugin [dist]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProtoTilesH2DPlugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="dist" />
+            <option value="build" />
           </list>
         </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ProtoTilesH2DPlugin [sourcesJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="sourcesJar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
@@ -232,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProtoTilesViewTest" />
-        <item itemvalue="Gradle.ProtoTilesH2DPlugin [sourcesJar]" />
-        <item itemvalue="Gradle.ProtoTilesH2DPlugin [dist]" />
-        <item itemvalue="Gradle.ProtoTilesH2DPlugin [dependencies]" />
+        <item itemvalue="Application.TilesetEditorTest" />
+        <item itemvalue="Gradle.ProtoTilesH2DPlugin [ProtoTilesPen:compileJShorty]" />
+        <item itemvalue="Gradle.ProtoTilesH2DPlugin [build]" />
         <item itemvalue="Application.FinalActionCardTest" />
+        <item itemvalue="Application.TileDissectorCard" />
       </list>
     </recent_temporary>
   </component>

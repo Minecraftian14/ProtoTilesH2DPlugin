@@ -23,14 +23,6 @@ configurations {
 dependencies {
     implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
     implementation "com.kotcrab.vis:vis-ui:$visuiVersion"
-    implementation "com.badlogicgames.ashley:ashley:$ashleyVersion"
-
-    implementation "com.esotericsoftware.spine:spine-libgdx:$spineVersion"
-
-    implementation 'net.mountainblade:modular:1.0'
-
-    implementation "games.rednblack.hyperlap2d:common-api:$h2dVersion"
-    implementation "games.rednblack.hyperlap2d:runtime-libgdx:$h2dVersion"
 
     provided 'com.github.Minecraftian14:StraightLines:0.5'
     implementation project(':ProtoTilesPen')
@@ -39,8 +31,6 @@ dependencies {
     testImplementation 'com.github.Minecraftian14:Hyperlap2DPluginTester:v0.2.2'
     testImplementation "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
     testImplementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
-//    testImplementation "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
-//    testImplementation "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'

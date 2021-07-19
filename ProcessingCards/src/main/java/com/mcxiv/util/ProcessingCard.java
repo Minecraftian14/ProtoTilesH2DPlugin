@@ -59,10 +59,11 @@ public abstract class ProcessingCard<Type> extends VisTable {
     int nine_top;
 
     private void initBackground() {
-        NinePatch patch = new NinePatch(new Texture(Gdx.files.internal("assets/UI.png")), 24, 24, 64, 24);
+        NinePatch patch = new NinePatch(new Texture(Gdx.files.internal("assets/UI.png")), 9, 9, 34, 9);
+//        NinePatch patch = new NinePatch(new Texture(Gdx.files.internal("assets/UI.9.png")));
         setBackground(new NinePatchDrawable(patch));
         nine_top = (int) getPadTop();
-        padTop(getPadBottom() / 2);
+        padTop(getPadBottom());
     }
 
     private void initHeader(String title) {
@@ -113,15 +114,12 @@ public abstract class ProcessingCard<Type> extends VisTable {
 
     private int getContentTop() {
         header.pack();
+        System.out.println(">"+header.getHeight());
         return (int) (nine_top - header.getHeight());
     }
 
     private void initSettings() {
         add(settings = new VisTable()).padTop(getContentTop()).growX().row();
-//        settings.add(new VisLabel("A: "));
-//        settings.add(new VisSlider(0, 100, 1, false)).row();
-//        settings.add(new VisLabel("B: "));
-//        settings.add(new VisTextButton("HEHE"));
     }
 
     private void initContent() {
