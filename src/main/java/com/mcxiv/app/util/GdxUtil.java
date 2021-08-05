@@ -103,4 +103,12 @@ public class GdxUtil {
             }
         };
     }
+
+    public static Texture resizeTo(Pixmap map, int neW) {
+        Pixmap fin = new Pixmap(neW, neW, map.getFormat());
+        fin.drawPixmap(map, 0, 0, map.getWidth(), map.getHeight(), 0, 0, fin.getWidth(), fin.getHeight());
+        Texture texture = new Texture(fin);
+        fin.dispose();
+        return texture;
+    }
 }

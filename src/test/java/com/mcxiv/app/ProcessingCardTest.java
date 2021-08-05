@@ -10,10 +10,6 @@ class ProcessingCardTest extends ProcessingCard {
         super(title);
     }
 
-    public ProcessingCardTest(String title, ProcessingCard parent) {
-        super(title, parent);
-    }
-
     public static void main(String[] args) throws InterruptedException {
         var config = new LwjglApplicationConfiguration();
         config.title = "Hyperlap2D Plugin Tester";
@@ -32,7 +28,7 @@ class ProcessingCardTest extends ProcessingCard {
 
     private static ProcessingCard get(int i, ProcessingCard parent) {
         if (i == 0) return null;
-        ProcessingCard card = new ProcessingCardTest(getTitle(), parent);
+        ProcessingCard card = new ProcessingCardTest(getTitle());
         for (int j = 0; j < i; j++) {
             ProcessingCard hell = get(i - 1, card);
             if (hell != null) card.addCard(hell);

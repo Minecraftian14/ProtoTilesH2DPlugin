@@ -14,7 +14,13 @@ class CommonListeners {
 
         public CardParentActionListener(ProcessingCard context, Button button) {
             this.context = context;
-            if (context.getParentCard() == null) button.setDisabled(true);
+            button.setDisabled(context.getParentCard() == null);
+            context.addParentListeners(new ParentListener() {
+                @Override
+                public void parentAdded() {
+                    button.setDisabled(context.getParentCard() == null);
+                }
+            });
         }
     }
 
@@ -110,12 +116,12 @@ class CommonListeners {
         public Collapse(ProcessingCard context, Button button) {
             super(context, button);
             assert button instanceof TextButton;
-            this.button= (TextButton) button;
+            this.button = (TextButton) button;
         }
 
         @Override
         public void changed(ChangeEvent event, Actor actor) {
-            if(context.isCollapsed()){
+            if (context.isCollapsed()) {
                 button.setText("Collapse");
                 context.expand();
             } else {

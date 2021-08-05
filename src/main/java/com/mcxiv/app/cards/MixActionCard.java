@@ -15,13 +15,14 @@ public class MixActionCard extends ProcessingCard<Color[][]> {
 
     private final StaticInstanceSelector<Blending> fie_blending;
 
-    public MixActionCard(ProcessingCard<Color[][]> parent) {
-        super(NAME, parent);
+    public MixActionCard(ProcessingCard<Color[][]>...children) {
+        super(NAME, children);
 
         VisTable settings = getSettings();
 
         settings.add(new VisLabel("Blender")).padRight(internal_pad);
         settings.add(fie_blending = new StaticInstanceSelector<>(Blending.class)).growX();
+        fie_blending.setSelected("defaultMix");
     }
 
     @Override
@@ -42,9 +43,8 @@ public class MixActionCard extends ProcessingCard<Color[][]> {
 
     @Override
     public ProcessingCard<Color[][]> clone() {
-        MixActionCard card = new MixActionCard(getParentCard());
-        Array<ProcessingCard<Color[][]>> children = getCards();
-        for (int i = 0; i < children.size; i++) card.addCard(children.get(i).clone());
+        MixActionCard card = ProcessingCard.clone(this, new MixActionCard());
+        card.fie_blending.setSelected(fie_blending.getSelected());
         return card;
     }
 }

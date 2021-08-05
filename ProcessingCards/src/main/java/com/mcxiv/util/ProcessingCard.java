@@ -5,20 +5,16 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.NinePatch;
 import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
-import com.badlogic.gdx.scenes.scene2d.ui.Button;
-import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
-import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop.Payload;
-import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop.Source;
-import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop.Target;
 import com.badlogic.gdx.scenes.scene2d.utils.NinePatchDrawable;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Array;
-import com.kotcrab.vis.ui.widget.*;
+import com.kotcrab.vis.ui.widget.VisLabel;
+import com.kotcrab.vis.ui.widget.VisScrollPane;
+import com.kotcrab.vis.ui.widget.VisTable;
+import com.kotcrab.vis.ui.widget.VisTextButton;
 
 public abstract class ProcessingCard<Type> extends VisTable {
 
@@ -34,19 +30,15 @@ public abstract class ProcessingCard<Type> extends VisTable {
 
     private Actor addButton;
 
-    public ProcessingCard(String title) {
-        this(title, null);
+    private final Array<ParentListener> parentListeners = new Array<>();
+
+    @SafeVarargs
+    public ProcessingCard(String title, ProcessingCard<Type>... children) {
+        this(title);
+        for (ProcessingCard<Type> child : children) addCard(child);
     }
 
-    public ProcessingCard(String title, ProcessingCard<Type> parent) {
-
-        this.parent = parent;
-//        if (parent == null) {
-//            dragAndDrop = new DragAndDrop();
-//        } else {
-//            dragAndDrop = parent.dragAndDrop;
-//            dropZoneAbove = new DropZone();
-//        }
+    public ProcessingCard(String title) {
 
         defaults().align(Align.top);
 
@@ -114,7 +106,6 @@ public abstract class ProcessingCard<Type> extends VisTable {
 
     private int getContentTop() {
         header.pack();
-        System.out.println(">"+header.getHeight());
         return (int) (nine_top - header.getHeight());
     }
 
@@ -148,10 +139,12 @@ public abstract class ProcessingCard<Type> extends VisTable {
 
     void addCard(ProcessingCard<Type> card, boolean isDnDUpdate) {
 
-        if (card.parent == null)
-            throw new RuntimeException("Please initialize the given card by also giving in the parent card, ie, this card.");
-        else if (card.parent != this)
-            throw new RuntimeException("That's not my child!!!!!");
+        if (card.parent != null) {
+            if (card.parent != this)
+                throw new RuntimeException("That's not my child!!!!!");
+            else throw new RuntimeException("That's already my child!!!!!");
+        }
+        card.setParentCard(this);
 
         // Some initialisation
 //        card.dragAndDrop = dragAndDrop;
@@ -205,6 +198,10 @@ public abstract class ProcessingCard<Type> extends VisTable {
         isCollapsed = false;
     }
 
+    public void addParentListeners(ParentListener parentListener) {
+        this.parentListeners.add(parentListener);
+    }
+
     public ProcessingCard<Type> getParentCard() {
         return parent;
     }
@@ -219,9 +216,15 @@ public abstract class ProcessingCard<Type> extends VisTable {
 
     protected void setParentCard(ProcessingCard<Type> newPa) {
         parent = newPa;
+        parentListeners.forEach(ParentListener::parentAdded);
     }
 
     public abstract ProcessingCard<Type> clone();
+
+    public static <Type, Card extends ProcessingCard<Type>> Card clone(Card original, Card cloned) {
+        for (ProcessingCard<Type> card : original.getCards()) cloned.addCard(card.clone());
+        return cloned;
+    }
 
     public Type process(Type type) {
         for (int i = 0, s = children.size; i < s; i++) type = children.get(i).process(type);

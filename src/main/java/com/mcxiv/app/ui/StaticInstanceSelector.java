@@ -17,9 +17,7 @@ public class StaticInstanceSelector<T> extends VisSelectBox<String> {
             if (!clazz.isAssignableFrom(field.getType())) continue;
 
             try {
-
                 referenceMap.put(field.getName(), (T) field.get(null));
-
             } catch (Exception ignored) {
             }
         }

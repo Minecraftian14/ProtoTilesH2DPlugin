@@ -33,10 +33,10 @@ class FinalActionCardTest {
 
         FinalActionCard testing_tiles = new FinalActionCard("Testing FinalAction");
 
-        MixActionCard mixActionCard = new MixActionCard(testing_tiles);
+        MixActionCard mixActionCard = new MixActionCard();
 
-        mixActionCard.addCard(new TileDissectorCard(pixels.length, mixActionCard));
-        mixActionCard.addCard(new TileDissectorCard(pixels.length, mixActionCard));
+        mixActionCard.addCard(new TileDissectorCard());
+        mixActionCard.addCard(new TileDissectorCard());
 
         testing_tiles.addCard(mixActionCard);
 

@@ -4,51 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3c185ad-ca13-4ce9-879b-c60d77f31e5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingCards/src/main/java/com/mcxiv/util/ProcessingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProcessingCards/src/main/java/com/mcxiv/util/ProcessingCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessingCards/src/test/java/com/mcxiv/util/ProcessingCardTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProtoTilesPen" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTilesPen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProtoTilesPen/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTilesPen/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProtoTilesPen/temp/TileDissectorMethod_jstmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoTilesPen/temp/TileDissectorMethod_jstmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/UI.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/UI.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/grasstile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/ProtoTilesPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/cards/FinalActionCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/cards/FinalActionCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/cards/MixActionCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/cards/MixActionCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/cards/TileDissectorCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/cards/TileDissectorCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/util/GdxUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/util/GdxUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/util/InterpolationSelectBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/ui/InterpolationSelectBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/MainViewMediator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/ProtoTilesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/view/ProtoTilesView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/DissectorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/view/subView/DissectorView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/MainTileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/view/subView/MainTileView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/SettingsPaneView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/view/subView/SettingsPaneView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mcxiv/plugin/view/subView/TileSetView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcxiv/app/view/subView/TileSetView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/DragAndDropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/app/DragAndDropTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/GdxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/app/GdxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/ProcessingCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/app/ProcessingCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/cards/FinalActionCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/app/cards/FinalActionCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mcxiv/plugin/view/ProtoTilesViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mcxiv/app/view/ProtoTilesViewTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3c185ad-ca13-4ce9-879b-c60d77f31e5e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +30,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -120,13 +77,14 @@
     <property name="last.edited.regexp" value="    overloadDissectorMethod(&quot;getHorRect&quot;)&#10;                        .parameter(&quot;height&quot;, &quot;&quot;&quot;The total height of the rectangle to be cropped.&quot;&quot;&quot;)&#10;                        .description(&quot;&quot;&quot;&#10;                            Returns the middle part of original pixels cropped like a rectangle with full width.&#10;                            The dimensions remain the same, ie, the remaining pixels are Null or Transparent.&#10;                        &quot;&quot;&quot;) {&#10;        return getHorRect(height / 2, height / 2, fade, fadeLength, raw, interpolator, clone, deNull);&#10;    }" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ProtoTilesPen/src/test/java/com/mcxiv/app/util" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ProtoTilesPen" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.291954" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mcxiv.util" />
       <recent name="com.mcxiv.app.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -151,11 +109,11 @@
       <recent name="com.mcxiv.plugin.view" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mcxiv.app.cards" />
       <recent name="com.mcxiv.app.view" />
       <recent name="" />
       <recent name="com.mcxiv.app" />
       <recent name="com.mcxiv.plugin" />
-      <recent name="com.mcxiv.plugin.util" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -181,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TileDissectorCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mcxiv.app.cards.TileDissectorCard" />
-      <module name="ProtoTilesH2DPlugin.main" />
+    <configuration name="ProtoTilesViewTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mcxiv.app.view.ProtoTilesViewTest" />
+      <module name="ProtoTilesH2DPlugin.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mcxiv.app.cards.*" />
+          <option name="PATTERN" value="com.mcxiv.app.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProtoTilesViewTest" />
         <item itemvalue="Application.TilesetEditorTest" />
         <item itemvalue="Gradle.ProtoTilesH2DPlugin [ProtoTilesPen:compileJShorty]" />
         <item itemvalue="Gradle.ProtoTilesH2DPlugin [build]" />
         <item itemvalue="Application.FinalActionCardTest" />
-        <item itemvalue="Application.TileDissectorCard" />
       </list>
     </recent_temporary>
   </component>

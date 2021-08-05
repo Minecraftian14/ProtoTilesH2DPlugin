@@ -10,17 +10,22 @@ import com.kotcrab.vis.ui.widget.VisTable;
 import com.kotcrab.vis.ui.widget.VisTextButton;
 import com.mcxiv.app.PackedTiles;
 import com.mcxiv.app.util.GdxUtil;
+import com.mcxiv.app.view.subView.DissectorView;
 import com.mcxiv.app.view.subView.MainTileView;
 import com.mcxiv.app.view.subView.SettingsPaneView;
 import com.mcxiv.app.view.subView.TileSetView;
 
 public class ProtoTilesView extends VisTable {
 
+    private final MainTileView mainTileView;
     private final SettingsPaneView settings;
 
     public ProtoTilesView(TextureRegion texture, String name) {
         pad(10);
+
+        mainTileView = new MainTileView(texture);
         settings = new SettingsPaneView(this);
+
         setViewFor(texture, name);
     }
 
@@ -43,15 +48,11 @@ public class ProtoTilesView extends VisTable {
         add(new MainTileView(region)).space(20);
         add(
                 new VisScrollPane(
-                        new TileSetView(lastCache)
-//                        new DissectorView(GdxUtil.getPixels(region), settings)
+//                        new TileSetView(GdxUtil.getPixels(region))
+                        new DissectorView(GdxUtil.getPixels(region), settings)
                 )
         ).space(20).row();
         add(getAddButton(regionName, lastCache)).space(20).colspan(2);
-    }
-
-    public void setViewAgain() {
-        setViewFor(region, regionName);
     }
 
     private VisTextButton getAddButton(String textureName, PackedTiles texture) {
@@ -77,6 +78,10 @@ public class ProtoTilesView extends VisTable {
             }
         });
         return button;
+    }
+
+    public void setViewAgain() {
+        setViewFor(region, regionName);
     }
 
     public void show(Stage uiStage) {

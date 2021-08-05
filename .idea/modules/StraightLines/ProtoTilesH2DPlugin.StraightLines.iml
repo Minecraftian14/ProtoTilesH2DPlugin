@@ -2,10 +2,10 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../ProtoTilesPen">
-      <excludeFolder url="file://$MODULE_DIR$/../../../ProtoTilesPen/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../ProtoTilesPen/build" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../ProtoTilesPen/out" />
+    <content url="file://$MODULE_DIR$/../../../StraightLines">
+      <excludeFolder url="file://$MODULE_DIR$/../../../StraightLines/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../StraightLines/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../StraightLines/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

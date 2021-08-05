@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output-test url="file://$MODULE_DIR$/../../../ProtoTilesPen/out/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../ProtoTilesPen/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../ProtoTilesPen/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../ProtoTilesPen/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../ProtoTilesPen/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../ProtoTilesPen/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ProtoTilesH2DPlugin.ProtoTilesPen.main" />
+    <orderEntry type="library" name="Gradle: com.github.Minecraftian14:StraightLines:0.5" level="project" />
     <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.7.0" level="project" />
     <orderEntry type="module-library">
       <library name="Gradle: org.junit.platform:junit-platform-commons:1.7.0">
@@ -39,7 +39,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Gradle: com.mcxiv.util:StraightLines:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.7.0" level="project" />
     <orderEntry type="module-library" scope="RUNTIME">
       <library name="Gradle: org.junit.platform:junit-platform-engine:1.7.0">

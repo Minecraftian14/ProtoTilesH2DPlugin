@@ -20,12 +20,15 @@ configurations {
     implementation.extendsFrom(provided)
 }
 
+sourceSets.main.java.srcDirs += ['..\\ProtoTilesPen\\src\\main\\java']
+sourceSets.main.java.srcDirs += ['..\\ProtoTilesPen\\src\\generated\\java']
+
 dependencies {
     implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
     implementation "com.kotcrab.vis:vis-ui:$visuiVersion"
 
     provided 'com.github.Minecraftian14:StraightLines:0.5'
-    implementation project(':ProtoTilesPen')
+//    implementation project(':ProtoTilesPen')
     implementation project(':ProcessingCards')
 
     testImplementation 'com.github.Minecraftian14:Hyperlap2DPluginTester:v0.2.2'
